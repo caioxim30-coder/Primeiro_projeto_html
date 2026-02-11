@@ -27,6 +27,9 @@ a{
     font-size:large;
     font-weight: bold;
 }
+h2{
+    text-align: center;
+}
 .cabeca{
     background-color: #FFCE99;
     border-radius: 20px;
@@ -35,4 +38,9 @@ a{
 .foto{
     width: 100%;
     border-radius: 5%;
+}
+.conteudo{
+    background: #FFCE99;
+    padding: 20px;
+    margin: 20px 0 0 0;
 }
