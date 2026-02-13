@@ -13,15 +13,13 @@ ul{
     padding-inline-start: 0;
     display: flex;
     margin: auto;
-    flex-wrap: wrap;
 }
 li{
     list-style: none;
     margin: 5px;
     padding: 10px;
     background-color: #FF9644 ;
-    border-radius: 10%;
-    max-width: 30%;
+    border-radius: 20%;
 }
 a{
     text-decoration: none;
@@ -31,33 +29,18 @@ a{
 }
 h2{
     text-align: center;
-    margin-block-start: 0;
-    margin-block-end: 0;
-}
-p{
-    margin: 0;
-    width: 100%;
-    padding: 1%;
 }
 .cabeca{
     background-color: #FFCE99;
+    border-radius: 20px;
     padding: 10px;
-    text-align: center;
 }
-.foto_header{
+.foto{
     width: 100%;
-    border-radius: 2%;
+    border-radius: 5%;
 }
 .conteudo{
     background: #FFCE99;
     padding: 20px;
-    margin: 10px 0 0 0;
-    display: flex;
-}
-.foto{
-    width: 90%;
-    padding: 5%;
-    border-radius: 10%;
-    background-color: #FF9644;
-    min-width: 20%;
+    margin: 20px 0 0 0;
 }
