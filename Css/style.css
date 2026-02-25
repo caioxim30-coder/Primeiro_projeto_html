@@ -3,44 +3,99 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #562F00;
 }
-nav{
-    display: flex;
-    padding: 0px;
-    width: 100%;
-    margin: 0 auto;
-}
-ul{
-    padding-inline-start: 0;
-    display: flex;
-    margin: auto;
-}
-li{
-    list-style: none;
-    margin: 5px;
-    padding: 10px;
-    background-color: #FF9644 ;
-    border-radius: 20%;
-}
 a{
     text-decoration: none;
     color: #562F00;
     font-size:large;
     font-weight: bold;
 }
-h2{
-    text-align: center;
+.menu{
+    li{
+    border-radius: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    }
 }
 .cabeca{
     background-color: #FFCE99;
     border-radius: 20px;
-    padding: 10px;
-}
-.foto{
+    padding: 15px;
+    ul{
+    padding-inline-start: 0;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    }
+    nav{
+    display: flex;
+    padding: 0px;
     width: 100%;
-    border-radius: 5%;
+    margin: 0 auto;
+    }
+    img{
+    width: 100%;
+    border-radius: 5px;
+    border-style: solid;
+    }
+    li{
+    list-style: none;
+    margin: 5px;
+    padding: 10px;
+    background-color: #FF9644 ;
+    border-radius: 20%;
+    }
+    h1{
+        background-color:#FF9644;
+        border-radius: 10px;
+        margin: 0 auto;
+        width:fit-content;
+    }
 }
 .conteudo{
     background: #FFCE99;
     padding: 20px;
-    margin: 20px 0 0 0;
+    margin-top: 20px;
+    border-radius: 20px;
+    h2{
+    text-align: center;
+    margin: 0;
+    }
+    li{
+    border-radius: 10px;
+    list-style: none;
+    margin: 10px;
+    padding: 20px;
+    background-color: #FF9644 ;
+    border-radius: 20px;
+    max-width: 21%;
+    }
+    ul{
+    padding-inline-start: 0;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    }
+    img{
+        width: 100%;
+        border-style: solid;
+        border-radius: 5px;
+    }
+    p{
+        font-size: large;
+    }
+    div{
+    background-color: #FF9644;
+    border-radius: 5px;
+    max-width: 30%;
+    display:inline-flex;
+    flex-wrap: wrap;
+    margin: 15px;
+        img{
+        width: 90%;
+        margin: 4%;
+        }
+        p{
+        padding: 10px;
+        }
+    }
 }
