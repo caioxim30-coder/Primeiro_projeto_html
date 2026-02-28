@@ -15,11 +15,18 @@ a{
     border-style: solid;
     border-radius: 10px;
     }
+    li:hover{
+        scale: 1.1;
+    }
 }
 .cabeca{
     background-color: #FFCE99;
     border-radius: 20px;
     padding: 15px;
+    min-width:fit-content;
+    h1{
+        border-style: solid;
+    }
     ul{
     padding-inline-start: 0;
     display: flex;
@@ -28,9 +35,6 @@ a{
     }
     nav{
     display: flex;
-    padding: 0px;
-    width: 100%;
-    margin: 0 auto;
     }
     img{
     width: 100%;
@@ -45,17 +49,18 @@ a{
     border-radius: 20%;
     }
     h1{
-        background-color:#FF9644;
-        border-radius: 10px;
-        margin: 0 auto;
-        width:fit-content;
+    background-color:#FF9644;
+    border-radius: 10px;
+    margin: 0 auto;
+    width:fit-content;
     }
 }
 .conteudo{
     background: #FFCE99;
     padding: 20px;
-    margin-top: 20px;
+    margin: 20px 20px;
     border-radius: 20px;
+    min-width:fit-content;
     h2{
     text-align: center;
     margin: 0;
@@ -68,6 +73,8 @@ a{
     background-color: #FF9644 ;
     border-radius: 20px;
     max-width: 21%;
+    max-height:min-content;
+    min-width:min-content;
     }
     ul{
     padding-inline-start: 0;
@@ -76,17 +83,17 @@ a{
     flex-wrap: wrap;
     }
     img{
-        width: 100%;
-        border-style: solid;
-        border-radius: 5px;
+    width: 100%;
+    border-style: solid;
+    border-radius: 5px;
     }
     p{
-        font-size: large;
+        font-size:large;
     }
     div{
     background-color: #FF9644;
     border-radius: 5px;
-    max-width: 30%;
+    max-width: 35%;
     display:inline-flex;
     flex-wrap: wrap;
     margin: 15px;
@@ -95,7 +102,33 @@ a{
         margin: 4%;
         }
         p{
-        padding: 10px;
+        padding: 20px;
         }
+    }
+}
+.coletor{
+    background: #FFCE99;
+    margin:auto;
+    padding: 15px;
+    border-radius: 5px;
+    max-width: 10%;
+    min-width:fit-content;
+    p{
+        text-transform:uppercase;
+        background-color: #FF9644;
+        border-radius: 5px;
+        padding: 20px;
+    }
+    form{
+        background-color: #FF9644;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    button{
+        background-color: #FF9644;
+        border-style: none;  
+    }
+    button:hover{
+        scale: 1.1;
     }
 }
